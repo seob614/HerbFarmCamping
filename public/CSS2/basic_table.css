@@ -1,0 +1,93 @@
+/*basic_table.css*/
+
+.ls_board{padding: 100px 0 130px;}
+.ls_category{margin-bottom: 30px;}
+.ls_category li{float: left;width: 12.5%;}
+.ls_category a{display: block;overflow: hidden;margin: 1px;border: 1px solid #ebebeb;line-height: 40px;text-align: center;text-overflow: ellipsis;white-space: nowrap;}
+.ls_category li.on a{border: 1px solid #333;background-color: #333;color: #FFF;}
+.ls_number{position: relative;margin-bottom: 10px;font-weight: normal; display: none;}
+.ls_number a{display: inline-block;position: absolute;top: 0px;right: 20px;}
+.ls_number a:first-child{right: 0px;}
+.ls_number a i{color: #FF0000;}
+.ls_table{width: 100%;border-collapse: collapse;border-top: 1px solid #ebebeb;}
+.ls_th_tr{height: 70px;}
+.ls_th_tr th{padding: 10px 0px;border-bottom: 1px solid #ebebeb;line-height: 20px; font-weight: 700;} 
+.ls_th_tr th.checkbox{width: 40px;}
+.ls_th_tr th.checkbox > input{width: 16px;height: 16px;vertical-align: -3px;cursor: pointer;}
+.ls_th_tr th.number{width: 60px;}
+.ls_th_tr th.category{width: 100px;}
+.ls_th_tr th.name{width: 100px;}
+.ls_th_tr th.datetime{width: 80px;}
+.ls_th_tr th.hit{width: 60px;}
+.ls_tb_tr.notice{background-color: #F5F5F5;}
+.ls_tb_tr td{padding: 10px 0px; height: 70px; border-bottom: 1px solid #ebebeb;text-align: center;}
+.ls_tb_tr td.checkbox{width: 40px;}
+.ls_tb_tr td.checkbox input{width: 16px;height: 16px;vertical-align: -3px;cursor: pointer;}
+.ls_tb_tr td.number{width: 90px;}
+.ls_tb_tr td.number strong{color: #FF0000;}
+.ls_tb_tr td.category{width: 100px;}
+.ls_tb_tr td.subject{padding: 10px;line-height: 100%;text-align: left;}
+.ls_tb_tr td.subject h1{font-weight: normal;line-height: 130%;}
+.ls_tb_tr td.subject strong{font-weight: normal;}
+.ls_tb_tr td.subject a{font-size: 18px; -webkit-line-clamp: 1; height: 24px;}
+.ls_tb_tr.notice td.subject a{color: #FF0000;font-weight: bold;}
+.ls_tb_tr td.subject h1 i{vertical-align: -1px;}
+.ls_tb_tr td.subject .ls_ca_name{display: none;}
+.ls_tb_tr td.subject .ls_comment{margin-left: 10px; display: none;}
+.ls_tb_tr td.subject h2{display: none;}
+.ls_tb_tr td.name{width: 130px;}
+.ls_tb_tr td.name span{}
+.ls_tb_tr td.datetime{width: 230px;}
+.ls_tb_tr td.hit{width: 130px;}
+.ls_tb_tr td.hit strong{font-weight: normal;}
+.ls_tb_tr td.hit span{display: none;}
+.ls_admin{position: relative; margin: 40px 0;}
+.ls_admin p{width: 40%;}
+.ls_admin p.left{float: left;}
+.ls_admin p.right{float: right; text-align: right;}
+.ls_admin button:first-child{display: none;}
+@media screen and (max-width:1199px){
+    .ls_board{padding: 80px 0 110px;}
+    .ls_th_tr th{font-size: 16px; -ms-transform: skew(-0.1deg); -webkit-transform: skew(-0.1deg); transform: skew(-0.1deg);} 
+    .ls_tb_tr td.subject h1 a{height: 22px; font-size: 16px; line-height: 22px;}
+    .ls_tb_tr td.subject h2 span{font-size: 14px; line-height: 20px;}
+    .ls_tb_tr td.hit strong{font-size: 16px; line-height: 22px;}
+    .ls_tb_tr td{font-size: 16px; line-height: 22px;}
+}
+@media(max-width: 1024px){
+    .ls_category li{width: 25%;}
+	.ls_th{display: none;}
+	.ls_tb_tr td.number{display: none;}
+	.ls_tb_tr td.category{display: none;}
+	.ls_tb_tr td.subject .ls_ca_name{display: inline;}
+	.ls_tb_tr td.subject .ls_comment{display: none;}
+	.ls_tb_tr td.subject h2{display: block;margin-top: 5px;font-weight: normal;}
+    .ls_tb_tr td.subject h2 i{float: left; margin: 3px 10px 0; width: 1px; height: 15px; background: #999;}
+    .ls_tb_tr td.subject h2 i::before{display: none;}
+	.ls_tb_tr td.subject h2 i:first-child{display: none;}
+	.ls_tb_tr td.subject h2 span{float: left; color: #999;}
+	.ls_tb_tr td.name{display: none;}
+	.ls_tb_tr td.datetime{display: none;}
+	.ls_tb_tr td.hit{line-height: 100%; display: none;}
+	.ls_tb_tr td.hit span{display: block;margin-top: 5px;}
+    .ls_admin .pg_wrap{width:100%;}
+    .ls_admin p.left{margin-bottom: 20px;}
+    .ls_admin p.right{margin-top: 20px;}
+    .ls_admin p.right a{width:100%;}
+	.ls_admin p{width: 100%;}
+	.ls_admin button{float: left;width: 25%;border-left: 1px solid #FFF;}
+	.ls_admin button:first-child{display: block;border: 1px solid #333;background-color: #FFF;color: #333;}
+}
+@media screen and (max-width:767px){
+    .ls_board{padding: 70px 0 90px;}
+}
+@media screen and (max-width:480px){
+    .ls_board{padding: 50px 0;}
+    .ls_tb_tr td.subject h1 a{height: 21px; font-size: 15px; line-height: 21px;}
+    .ls_tb_tr td.subject h2 span{font-size: 13px; line-height: 19px;}
+    .ls_tb_tr td.hit strong{font-size: 15px; line-height: 21px;}
+    .ls_tb_tr td{font-size: 15px; line-height: 21px;}
+}
+
+
+

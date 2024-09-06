@@ -1,0 +1,109 @@
+/*reset.css*/
+
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+/* 필요없는 요소 display : none; */
+#aside{display: none;} /* 사이드 메뉴 */
+#top_btn{display: none;} /* go top 버튼*/
+.gnb_menu_btn{display: none;}
+#popular{display: none;} /* 인기검색어 */
+/* css 초기화 */
+body{background: none;}
+#tnb{border-bottom: none; background: none;}
+#tnb li{border-left: none; margin-bottom: 0; font-size: 1em;}
+#hd{border-top: none; width: 100%;}
+#hd_wrapper{padding: 0;}
+@media screen and (max-width:1199px){
+#wrapper{width: 100%; min-width: inherit;}
+}
+.hd_sch_wr{top: 0; margin-left: 0;}
+#container_wr{width: 100%;}
+#container{margin: 0; width: 100%;}
+#logo{padding: 0; float: none;}
+#gnb{height: 100%;}
+#gnb .gnb_wrap{width: 100%;}
+#gnb .gnb_mnal{display: none;}
+#gnb #gnb_1dul{background: none; -webkit-box-shadow: none; box-shadow: none; width: 100%;}
+#gnb .gnb_1dli{padding: 0;}
+#gnb .gnb_1dli:hover{background: none; -webkit-transition: none; transition: none;}
+.gnb_1da{color: #333;}
+#hd_sch{border: none; background: none; border-radius: 0;}
+#hd_sch #sch_stx{padding-left: 0; font-size: 1em;}
+#hd_sch #sch_summit{color: #333; background: none; font-size: 1em;}
+#ft{border-top: none; background: none; padding-bottom: 0; text-align: left;}
+#ft_wr{width: 100%;}
+#ft_link{border-bottom: none; padding: 0;}
+#ft_link a{padding: 0; line-height: 1em; font-weight: normal;}
+#ft_copy{color: #333; font-size: 1em;}
+img, iframe, fieldset, frameset, input, select, option, textarea, button{border: 0 none; border-radius: 0;}
+ul, ol, li{list-style: none;}
+b, strong{font-weight: normal;}
+address, i, em{font-style: normal;}
+a{text-decoration:none; color: #333;}
+a, label{display: block;}
+/*img{display: block;}*/
+p, span, a{-ms-transform: skew(-0.1deg); -webkit-transform: skew(-0.1deg); transform: skew(-0.1deg);}
+/* 폰트 설정 */
+html, body, table, tr, th, td, input, select, option, textarea, button{font: 18px / 24px 'NanumSquare', sans-serif; color: #333; font-weight: normal;}
+h1, h2, h3, h4, h5, h6{font: 18px / 24px 'NanumSquare', sans-serif; font-weight: normal; color: #333;}
+input[type=password]{font-family: sans-serif;}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 400;
+ src: url(../../fonts/NanumSquareR.eot);
+ src: url(../../fonts/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+      url(../../fonts/NanumSquareR.woff) format('woff'),
+      url(../../fonts/NanumSquareR.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 700;
+ src: url(../../fonts/NanumSquareB.eot);
+ src: url(../../fonts/NanumSquareB.eot?#iefix) format('embedded-opentype'),
+      url(../../fonts/NanumSquareB.woff) format('woff'),
+      url(../../fonts/NanumSquareB.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 800;
+ src: url(../../fonts/NanumSquareEB.eot);
+ src: url(../../fonts/NanumSquareEB.eot?#iefix) format('embedded-opentype'),
+      url(../../fonts/NanumSquareEB.woff) format('woff'),
+      url(../../fonts/NanumSquareEB.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 300;
+ src: url(../../fonts/NanumSquareL.eot);
+ src: url(../../fonts/NanumSquareL.eot?#iefix) format('embedded-opentype'),
+      url(../../fonts/NanumSquareL.woff) format('woff'),
+      url(../../fonts/NanumSquareL.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'HANCooljazz';
+ font-weight: 700;
+ src: url(../../fonts/HANCooljazzB.eot);
+ src: url(../../fonts/HANCooljazzB.eot?#iefix) format('embedded-opentype'),
+      url(../../fonts/HANCooljazzB.woff) format('woff'),
+      url(../../fonts/HANCooljazzB.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'HANCooljazz';
+ font-weight: 400;
+ src: url(../../fonts/HANCooljazzM.eot);
+ src: url(../../fonts/HANCooljazzM.eot?#iefix) format('embedded-opentype'),
+      url(../../fonts/HANCooljazzM.woff) format('woff'),
+      url(../../fonts/HANCooljazzM.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'HANCooljazz';
+ font-weight: 300;
+ src: url(../../fonts/HANCooljazzL.eot);
+ src: url(../../fonts/HANCooljazzL.eot?#iefix) format('embedded-opentype'),
+      url(../../fonts/HANCooljazzL.woff) format('woff'),
+      url(../../fonts/HANCooljazzL.ttf) format('truetype');
+}
+
+.fire{text-align:center;}

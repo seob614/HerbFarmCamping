@@ -1,0 +1,94 @@
+/*business.css*/
+
+.ser_sec{padding: 100px 0 130px;}
+.ser_sec1 .text_area{float: left; width: 40%;}
+.ser_sec1 .text_area .tit{margin-bottom: 50px; font-size: 36px; line-height: 45px; font-weight: 300;}
+.ser_sec1 .text_area .tit b{font-weight: 700; color: #033e8c;}
+.ser_sec1 .text_area .desc{margin-bottom: 90px; word-break: keep-all; line-height: 28px;}
+.ser_sec1 .text_area .readmore{border-radius: 0;}
+.ser_sec1 .text_area .readmore a{background: #033e8c; color: #fff;}
+.ser_sec1 .text_area .readmore:hover a{background: #333;}
+.ser_sec1 .figure_area{float: left; padding-left: 45px; width: 60%; overflow: hidden;}
+.ser_sec1 .figure_area img{width: 100%; position: relative; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%);}
+.ser_sec2{}
+.ser_sec2 .tit_area{text-align: center;}
+.ser_sec2 .tit_area .sub_tit{font-weight: 700; font-size: 22px; line-height: 22px;}
+.ser_sec2 .tit_area .tit{margin: 25px 0 30px; font-weight: 300; font-size: 36px; line-height: 36px;}
+.ser_sec2 .tit_area .desc{padding: 0 50px; font-weight: 300;}
+.ser_sec2 .list_area{margin-top: 70px;}
+.ser_sec2 .list_area li{float: left; width: 32%; height: 200px; background: #000; -webkit-box-shadow: 0px 4px 19px -3px rgba(0,0,0,0.31);
+box-shadow: 0px 4px 19px -3px rgba(0,0,0,0.31);}
+.ser_sec2 .list_area li:nth-child(3n-1){margin: 0 2%;}
+.ser_sec2 .list_area .icon_area{width: 100%;}
+.ser_sec2 .list_area .icon_area img{width: 200px; margin: 40px auto;}
+.ser_sec2 .list_area .text_area{text-align: center;}
+.ser_sec2 .list_area .text_area h4{margin-bottom: 25px; padding-top:50px; font-size: 22px; line-height: 26px; font-weight: 700; color:#FFF }
+.ser_sec2 .list_area .text_area p{padding: 0 20px; color: #999; font-size: 16px; word-break: keep-all;}
+.ser_sec3{padding: 60px 0 130px;}
+.ser_sec3 .tit_area{text-align: center;}
+.ser_sec3 .tit_area .sub_tit{font-size: 22px; line-height: 22px; font-weight: 300;}
+.ser_sec3 .tit_area .tit{margin: 25px 0 50px; font-size: 36px; line-height: 36px; font-weight: 700;}
+.ser_sec3 .tit_area .desc{padding: 0 50px; color: #666; word-break: keep-all;}
+.ser_sec3 .figure_area{margin-top: 90px;}
+.ser_sec3 .figure_area img{width: 100%;}
+
+.fee { padding:10px 20px;}
+
+@media screen and (max-width:1199px){
+    .ser_sec{padding: 80px 0 100px;}
+    .ser_sec1 .text_area{margin-top: 3%;}
+    .ser_sec1 .text_area .tit{margin-bottom: 30px; font-size: 28px; line-height: 37px;}
+    .ser_sec1 .text_area .desc{margin-bottom: 40px; font-size: 16px; line-height: 22px;}
+    .ser_sec1 .figure_area{padding-left: 4%; height: 400px;}
+    .ser_sec1 .figure_area img{width: auto; height: 100%;}
+    .ser_sec2{background-size: auto 500px;}
+    .ser_sec2 .tit_area .sub_tit{font-size: 18px; line-height: 18px;}
+    .ser_sec2 .tit_area .tit{margin: 20px 0 40px; font-size: 28px; line-height: 28px;}
+    .ser_sec2 .tit_area .desc{font-size: 16px; line-height: 22px;}
+    .ser_sec2 .list_area{margin-top: 50px;}
+    .ser_sec2 .list_area li{height: auto;}
+    .ser_sec2 .list_area .icon_area img{width: 150px; margin: 0 auto; padding: 30px 0;}
+    .ser_sec2 .list_area .text_area h4{margin-bottom: 20px; font-size: 18px; line-height: 24px;}
+    .ser_sec2 .list_area .text_area p{margin-bottom: 50px; height: 120px; font-size: 15px; line-height: 20px;}
+    .ser_sec3{padding: 40px 0 100px;}
+    .ser_sec3 .tit_area .sub_tit{font-size: 18px; line-height: 18px;}
+    .ser_sec3 .tit_area .tit{margin: 20px 0 40px; font-size: 28px; line-height: 28px;}
+    .ser_sec3 .tit_area .desc{font-size: 16px; line-height: 22px;} 
+    .ser_sec3 .figure_area{margin-top: 50px;}
+}
+@media screen and (max-width:1024px){
+    .ser_sec2 .list_area .text_area h4{font-size: 17px;}
+    .ser_sec2 .list_area .text_area p{height: 160px; font-size: 14px; line-height: 20px;}
+}
+@media screen and (max-width:767px){
+    .ser_sec{padding: 80px 0;}
+    .ser_sec1 .text_area{margin-bottom: 40px; width: 100%;}
+    .ser_sec1 .figure_area{padding-left: 0; width: 100%; height: auto;}
+    .ser_sec1 .figure_area img{width: 100%; height: auto;}
+    .ser_sec2{background-size: auto 400px;}
+    .ser_sec2 .list_area{margin-top: 40px;}
+    .ser_sec2 .list_area li{float: none; padding-bottom: 50px; margin: 0 auto; width: 100%; max-width: 400px;}
+    .ser_sec2 .list_area li:nth-child(3n-1){margin: 30px auto;}
+    .ser_sec2 .list_area .text_area p{margin-bottom: 0; height: 100px;}
+    .ser_sec3{padding: 30px 0 80px;}
+}
+@media screen and (max-width:480px){
+    .ser_sec{padding: 70px 0;}
+    .ser_sec1 .text_area .tit{font-size: 22px; line-height: 30px;}
+    .ser_sec1 .text_area .desc{font-size: 15px; line-height: 21px;}
+    .ser_sec2{}
+    .ser_sec2 .tit_area .sub_tit{font-size: 16px; line-height: 16px;}
+    .ser_sec2 .tit_area .tit{margin: 15px 0 30px; font-size: 22px; line-height: 22px;}
+    .ser_sec2 .tit_area .desc{padding: 0 20px; font-size: 15px; line-height: 21px; word-break: keep-all;}
+    .ser_sec2 .tit_area .desc br{display: none;}
+    .ser_sec2 .list_area{margin-top: 40px;}
+    .ser_sec2 .list_area li{padding-bottom: 40px; height: auto;}
+    .ser_sec2 .list_area .icon_area img{width: 150px; margin: 0 auto; padding: 20px 0;}
+    .ser_sec2 .list_area .text_area h4{margin-bottom: 15px; font-size: 16px; line-height: 22px; -ms-transform: skew(-0.1deg); -webkit-transform: skew(-0.1deg); transform: skew(-0.1deg);}
+    .ser_sec2 .list_area .text_area p{margin-bottom: 0; padding: 0 11%; height: 133px; font-size: 14px; line-height: 19px; }
+    .ser_sec3{padding: 0 0 70px;}
+    .ser_sec3 .tit_area .sub_tit{font-size: 16px; line-height: 16px;}
+    .ser_sec3 .tit_area .tit{margin: 15px 0 30px; font-size: 22px; line-height: 22px;}
+    .ser_sec3 .tit_area .desc{padding: 0 20px; font-size: 15px; line-height: 21px;} 
+    .ser_sec3 .figure_area{margin-top: 40px;}  
+}

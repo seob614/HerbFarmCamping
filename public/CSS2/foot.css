@@ -1,0 +1,40 @@
+/*foot.css*/
+#ft{padding: 45px 0 30px; width:100%; min-width: inherit; text-align: center; background: #222;}
+#ft *{color:#666; font-size: 15px; line-height: 22px; text-align: left; -ms-transform: skew(-0.1deg); -webkit-transform: skew(-0.1deg); transform: skew(-0.1deg);}
+#ft_company{float: left; margin-bottom: 45px; width: 65%; border-right: 1px solid #444;}
+#ft_logo{margin-bottom: 35px; width: 100%; height: 35px;}
+#ft_logo a{height: 100%;color: #fff;}
+#ft_logo a img{height:100%;}
+#ft_company ul{width: 80%;}
+#ft_company li{display: inline-block; color: #fff;}
+#ft_contact{float: right; padding-left:90px; width: 35%;}
+#ft_contact strong{color: #fff; display: block; margin-bottom: 30px; font-size: 30px; font-weight: 800; line-height: 30px; text-indent: -10px;}
+#ft_copy{padding-top:30px; width: 100%; text-align: center; border-top: 1px solid #444;}
+@media screen and (max-width:1199px){
+    #ft *{font-size: 14px; line-height: 20px;}
+    #ft_company{width: 70%;}
+    #ft_company ul{padding-right: 20px; width: 100%;}
+    #ft_contact{padding-left:30px; width: 30%;}
+    #ft_contact strong{margin: 0 auto 30px; width: 250px;}
+    #ft_contact ul{margin: 0 auto; width: 160px;}
+}
+@media screen and (max-width:767px){
+    #ft{padding: 50px 0 0;}
+    #ft .inner{padding: 0;}
+    #ft *{text-align: center;}
+    #ft_company{float: none; padding: 0 20px 50px; margin-bottom: 0; width: 100%;}
+    #ft_company ul{padding-right: 0;}
+    #ft_logo{margin-bottom: 30px;}
+    #ft_logo a img{margin: 0 auto;}
+    #ft_contact{float: none; padding: 50px 0; margin: 0; width: 100%; border: 1px solid #444; border-left: none; border-right: none;}
+    #ft_copy{padding-top:0; height: 50px; line-height: 50px; border-top: none;}
+}
+@media screen and (max-width:480px){
+    #ft{padding: 40px 0 0;}
+    #ft *{font-size: 13px; line-height: 18px;}
+    #ft_company{padding: 0 20px 40px;}
+    #ft_logo{height: 20px;}
+    #ft_contact{padding: 40px 0;}
+    #ft_contact strong{margin-bottom: 25px; font-size: 25px;}
+    #ft_copy{line-height: 50px;}
+}
